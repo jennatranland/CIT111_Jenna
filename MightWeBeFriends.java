@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MightWeBeFriends {
         public static void main(String[] notUsed) {
         int compatScore = 0;
-        final int threshold = 75;
+        final int threshold = 60;
         int userResponse = 0;
         Scanner inputScanner;
         boolean passedThreshold = false;
@@ -151,7 +151,7 @@ public class MightWeBeFriends {
         userResponse = inputScanner.nextInt();
         if (userResponse == 1){
             //Yes
-            compatScore = compatScore + 25;
+            compatScore = compatScore + 30;
             System.out.println("Yeah I already know that he is.");
         }else if (userResponse == 2){
             //No
